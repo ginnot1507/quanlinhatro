@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DoanhThu" targetNamespace="http://tempuri.org/DoanhThu.xsd" xmlns:mstns="http://tempuri.org/DoanhThu.xsd" xmlns="http://tempuri.org/DoanhThu.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DoanhThu" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DoanhThu" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DoanhThu">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DOANHTHU" msprop:Generator_RowClassName="DOANHTHURow" msprop:Generator_RowEvHandlerName="DOANHTHURowChangeEventHandler" msprop:Generator_RowDeletedName="DOANHTHURowDeleted" msprop:Generator_RowDeletingName="DOANHTHURowDeleting" msprop:Generator_RowEvArgName="DOANHTHURowChangeEvent" msprop:Generator_TablePropName="DOANHTHU" msprop:Generator_RowChangedName="DOANHTHURowChanged" msprop:Generator_UserTableName="DOANHTHU" msprop:Generator_RowChangingName="DOANHTHURowChanging" msprop:Generator_TableClassName="DOANHTHUDataTable" msprop:Generator_TableVarName="tableDOANHTHU">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SOPHONG" msprop:Generator_UserColumnName="SOPHONG" msprop:Generator_ColumnPropNameInTable="SOPHONGColumn" msprop:Generator_ColumnPropNameInRow="SOPHONG" msprop:Generator_ColumnVarNameInTable="columnSOPHONG" type="xs:int" minOccurs="0" />
+              <xs:element name="THANG" msprop:Generator_UserColumnName="THANG" msprop:Generator_ColumnPropNameInTable="THANGColumn" msprop:Generator_ColumnPropNameInRow="THANG" msprop:Generator_ColumnVarNameInTable="columnTHANG" type="xs:int" minOccurs="0" />
+              <xs:element name="NAM" msprop:Generator_UserColumnName="NAM" msprop:Generator_ColumnPropNameInTable="NAMColumn" msprop:Generator_ColumnPropNameInRow="NAM" msprop:Generator_ColumnVarNameInTable="columnNAM" type="xs:int" minOccurs="0" />
+              <xs:element name="DOANHTHU" msprop:Generator_ColumnPropNameInRow="DOANHTHU" msprop:Generator_ColumnPropNameInTable="DOANHTHUColumn" msprop:Generator_ColumnVarNameInTable="columnDOANHTHU" msprop:Generator_UserColumnName="DOANHTHU" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
